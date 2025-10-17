@@ -33,4 +33,49 @@ for i in range(3):
 
 
 #if u really want to be pythonic 
-print("meow\n"*3)
+#\n is used to go to the next line
+"""
+print("meow\n"*3, end="")
+"""
+#this end thing is damn important without it it adds another extra line which makes it a little inefficient which we do not like.
+
+
+#now we want a user input
+"""
+while True: #inducing an infinite loop delibritely
+    n=int(input("what is n?"))
+    if n<0:
+        continue
+    else:
+        break
+for i in range(n):
+     print("meow")
+"""
+
+#now simplifying
+"""
+while True: #inducing an infinite loop delibritely
+    n=int(input("what is n?"))
+    if n>0:
+        break
+
+for _ in range(n):
+        print("meow")
+"""
+
+def main():
+    number = get_number()
+    meow(number)
+
+def meow(n):
+    for _ in range(n):
+        print("meow")
+
+def get_number():
+    while True:
+        n= int(input("what is n?"))
+        if n>0:
+            break
+    return n
+
+main()

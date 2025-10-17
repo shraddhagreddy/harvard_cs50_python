@@ -17,3 +17,7 @@
 - type of data 
 - way of containing multiple things 
 - [] represents a list 
+
+
+
+### minor improvement u can name a variable _ instead of an i, if it does not matter to you 
