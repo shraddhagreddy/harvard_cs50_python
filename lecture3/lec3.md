@@ -18,6 +18,16 @@
 - way of containing multiple things 
 - [] represents a list 
 
-
+-learn about break
+-learn about continue
 
 ### minor improvement u can name a variable _ instead of an i, if it does not matter to you 
+
+## dict
+- dictionaries
+- data structures to associate one value with another
+- keys and values
+- helps u associate something with something else
+- uses curly braces
+- ### if we use a for loop while iterating over a dict it always returns the key 
+- here, there is a keyword None
