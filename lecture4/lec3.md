@@ -18,3 +18,7 @@
     - try with everything
 
 - we can use else as well
+- ###  adding loops
+
+### - pass
+### - raise is also there \\will be done later

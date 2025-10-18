@@ -66,9 +66,119 @@ why is not defined eventhough we have tried to define it on line2
 """
 #else
 
+"""
 try:
     x=int(input("what is x?"))
 except ValueError:
     print("x is not an integer")
 else:
     print(f"x is {x}")
+"""
+#loops
+
+"""
+while True:
+    try:
+        x=int(input("what is x?"))
+    except ValueError:
+        print("x is not an integer")
+    else:
+        break
+
+print(f"x is {x}")
+"""
+
+#another approach
+""""
+while True:
+    try:
+        x=int(input("what is x?"))
+        break
+    except ValueError:
+        print("x is not an integer")
+print(f"x is {x}")
+"""
+
+#trying to get number from user quite a bit
+
+#always write the called function and then main
+#actually ur wish 
+
+""""
+def main():
+    x= get_int()
+    print(f"x is {x}")
+
+
+def get_int():
+    while True:
+        try:
+            x=int(input("what is x?"))
+        except ValueError:
+            print("x is not an integer")
+        else:
+            break
+    # in a function we need return something to be used later
+    return x
+
+main()
+"""
+
+
+#refinement
+
+""""
+def main():
+    x= get_int()
+    print(f"x is {x}")
+
+
+def get_int():
+    while True:
+        try:
+            return int(input("what is x?"))
+        except ValueError:
+            print("x is not an integer")
+
+main()
+"""
+
+
+#using pass
+#makes it user-friendly
+
+"""
+def main():
+    x= get_int()
+    print(f"x is {x}")
+
+
+def get_int():
+    while True:
+        try:
+            return int(input("what is x?"))
+        except ValueError:
+            pass
+
+main()
+"""
+
+#refinements
+#more dynamic- doesnt need to know what it is being asked for
+
+def main():
+    x= get_int("what is x? ")
+    print(f"x is {x}")
+
+
+def get_int(prompt):
+    while True:
+        try:
+            return int(input(prompt))
+        except ValueError:
+            pass
+
+main()
+
+
+#there is also raise
