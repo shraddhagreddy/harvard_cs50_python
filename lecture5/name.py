@@ -65,12 +65,22 @@ print("hello, my name is ", sys.argv[1])
 """
 
 #what if there are many name entered?
-
+"""
 import sys
 if len(sys.argv)<2:
     sys.exit("too few arguments")
 
 for arg in sys.argv:
     print("hello, my name is", arg)
+"""
 
 #but this gives even the name of the file
+
+#so now we'll use slices
+
+import sys
+if len(sys.argv)<2:
+    sys.exit("too few arguments")
+
+for arg in sys.argv[1:]:
+    print("hello, my name is", arg)

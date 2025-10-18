@@ -37,3 +37,6 @@ random.shuffle(x) - takes a list and shuffles them
 - ### sys
     - conatains a whole lot of functionality of the system
     - sys.argv (argument vector) - list of all the words human typed at prompt before enter
+
+- ### slices
+    - we can slice from the beginning or the end
