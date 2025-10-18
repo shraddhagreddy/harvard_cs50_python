@@ -27,3 +27,13 @@ from keyword
 
 random.randint(a,b)->including a,b 
 random.shuffle(x) - takes a list and shuffles them
+
+
+## statistics library
+- to calculate mean,median, mode, etc
+
+## command-line arguments
+- allows u to provide arguments (input to program) just while inputting at the command line
+- ### sys
+    - conatains a whole lot of functionality of the system
+    - sys.argv (argument vector) - list of all the words human typed at prompt before enter
