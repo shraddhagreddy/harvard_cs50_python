@@ -1,4 +1,4 @@
-functions, variables, conditionals, loops, exceptions, libraries, unit tests, file i/o, regular expressions, obejct oriented programming, additional tools and info
+Functions, variables, conditionals, loops, exceptions, libraries, unit tests, file i/o, regular expressions, obejct oriented programming, additional tools and info
 
 
 # lecture 1
